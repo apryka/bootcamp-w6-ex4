@@ -1,0 +1,38 @@
+<!doctype html>
+<html class="no-js" lang="pl">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Eduweb: Front-End Dev Bootcamp</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <h1> Odtwarzacz filmów</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              <video id="video">
+                <source src="dist/video.mp4" type="video/mp4">
+                  Twoja przegladarka nie wspiera video w formacie .mp4
+              </video>
+              <input type="button" id="play" value="Play">
+              <input id="progress" type="range">
+              <output for="progress" id="progressTime"></output>
+            </div>
+          </div>
+        </div>
+
+        <script src="dist/script.js"></script>
+
+    </body>
+</html>
